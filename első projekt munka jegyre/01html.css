@@ -6,12 +6,33 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-color: blue;
+  background-color: #0066CC;
+}
+#container{
+  font-family: 'Stick No Bills' , sans-serif;
+  width: 860px;
+  height: 100%;
+  background-color: #0066CC;
+  color: white;
+}
+.header{
+  margin-top: 15px;
+  padding-top: 2px;
+}
+.Playstation, .Pc{
+  margin-right: 15px;
+}
+.nev{
+  width: 180px;
+  height: 135px;
+}
+.ar, .nev{
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .smallpic{
   width: 100px;
   height: 125px;
-  
 }
 h2{
   float: top;
@@ -34,11 +55,9 @@ table, th, td {
     overflow: hidden;
     background-color: #333;
   }
-  
   li {
     float: left;
   }
-  
   li a {
     display: block;
     color: white;
@@ -46,41 +65,38 @@ table, th, td {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover {
     background-color: #111;
   }
-#container{
-    font-family: 'Stick No Bills' , sans-serif;
-    width: 860px;
-    height: 100%;
-    background-color: blue;
-}
 .content{
-    color: white;
-    
     line-height: 150%;
     size: 13px;
-    float: right;
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
-
 h1{
     text-align: center;
-    color: white;
 }
 .footer{
     clear: both;
     text-align: left;
     height: 60px;
-
 }
 .news{
-    background-color: blue;
+    background-color: #0066CC;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: justify;
     float: top;
-    color: white;
+}
+.footer{
+  padding-bottom: 15px;
+}
+.copyrightlight{
+  color: lightblue;
+  text-align: left;
+  padding-left: 15px;
 }
