@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 body{
-    background-image: url('mcbg1.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    
+  background-image: url('mcbg4.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+.smallpic{
+  width: 100px;
+  height: 125px;
+  
+}
+h2{
+  float: top;
+  text-align: center;
 }
 table, th, td {
-    border: 1px solid black;
+    text-align: center;
+    border: 1px solid white;
     border-collapse: collapse;
+    background-color: black;
   }
 .active {
     background-color: #04AA6D;
@@ -55,9 +67,6 @@ table, th, td {
 h1{
     text-align: center;
     color: white;
-}
-.header{
-
 }
 .footer{
     clear: both;
