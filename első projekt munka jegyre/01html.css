@@ -34,11 +34,11 @@ body{
 .Pc{
   float: right;
 }
-.nev{
+#nev{
   width: 180px;
   height: 135px;
 }
-.ar, .nev{
+#ar, #nev{
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -96,7 +96,7 @@ h1{
     height: 60px;
 }
 
-.button {
+#button {
   background-color: #4CAF50; 
   border: #111;
   color: white;
