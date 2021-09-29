@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="01html.css" type="text/css">
-    <script src="kosar.js"></script>
+    <script src="kosar.js" async></script>
     <title>I hate n</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
                 <li><a href="index.html">Főoldal</a></li>
                 <li><a href="index1.html">Hírek</a></li>
                 <li><a href="index2.html">Elérhetőségeink</a></li>
-                <li style="float:right"><a class="active" href="index4.html">Kosár</a></li>
+                
                 <li style="float:right"><a class="active" href="index3.html">Rólunk</a></li>
         </ul>
     <div id="container">
@@ -27,38 +27,95 @@
                 <h2>Pc: </h2>
                 <table>
                     <tr>
-                        <td><img src="minecraft.jpg" class="smallpic" alt="xd"></td>
-                        <td class="nev">Minecraft</td>
+                        <td><img src="Képek/minecraft.jpg" class="smallpic" alt="Minecraft"></td>
+                        <td class="nev">Minecraft <br>
+                        <input type="checkbox" id="minecraft"> </td>
                         <td class="ar">4 499 Ft</td>
                     </tr>
+                    
                 </table>
             </div>
             <div class="Playstation">
                 <h2>Playstation: </h2>
                 <table>
                     <tr>
-                        <td> <img src="uncharted.png" class="smallpic" alt="xd"> </td>
+                        <td> <img src="Képek/uncharted.png" class="smallpic" alt="Uncharted"> </td>
                         <td class="nev">Uncharted: <br>
-                            The Nathan Drake Collection</td>
+                            The Nathan Drake Collection <br>
+                            <input type="checkbox" id="uncharted"></td>
                         <td class="ar">7 499 Ft</td>
                     </tr>
                     <tr>
-                        <td> <img src="darksouls3.jpg" class="smallpic" alt="xd"> </td>
-                        <td class="nev">Dark Souls III</td>
+                        <td> <img src="Képek/darksouls3.jpg" class="smallpic" alt="Dark souls"> </td>
+                        <td class="nev">Dark Souls III <br>
+                            <input type="checkbox" id="darksouls"></td>
                         <td class="ar">8 999 Ft</td>
+                    </tr>
+                </table>
+                <h2>Playstation exclusives: </h2>
+                <table>
+                    <tr>
+                        <td> <img src="Képek/sfv.jfif" class="smallpic" alt="sfv"> </td>
+                        <td class="nev">Street Fighter V:  <br>
+                            Arcade edition <br>
+                            <input type="checkbox" id="sfv"></td>
+                        <td class="ar">7 999 Ft</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="Képek/jumanji.jpg" class="smallpic" alt="jumanji"> </td>
+                        <td class="nev">Jumanji <br>
+                            <input type="checkbox" id="jum"></td>
+                        <td class="ar">2 499 Ft</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="Képek/Horizon.jfif" class="smallpic" alt="Horizon"> </td>
+                        <td class="nev">Horizon <br>
+                            <input type="checkbox" id="horizon"></td>
+                        <td class="ar">9 999 Ft</td>
                     </tr>
                 </table>
             </div>
             <div class="Xbox">
                 <h2>Xbox: </h2>
+                <table>
+                    <tr>
+                        <td><img src="Képek/callofduty.png" class="smallpic" alt="callofduty"></td>
+                        <td class="nev">Call of Duty <br>
+                        Black Ops: Cold War <br>
+                        <input type="checkbox" id="cod"></td>
+                        <td class="ar">4 499 Ft</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Képek/cobrakai.jpg" class="smallpic" alt="cobrakai"></td>
+                        <td class="nev">Cobra Kai <br>
+                        <input type="checkbox" id="cobra"></td>
+                        <td class="ar">4 999 Ft</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Képek/gta4.jpg" class="smallpic" alt="gta4"></td>
+                        <td class="nev">Grand Theft Auto 4 <br>
+                        <input type="checkbox" id="gta4"></td>
+                        <td class="ar">6 499 Ft</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Képek/carnival.jpg" class="smallpic" alt="carnival"></td>
+                        <td class="nev">carnival <br>
+                        <input type="checkbox" id="carnival"></td>
+                        <td class="ar">3 499 Ft</td>
+                    </tr>
+                </table>
             </div>
         </div>
-        
+        <div class="butt">
+            <h2>Kosár: </h2>
+            <input type="button" value="Kosárba" class="button" id="myBtn" onclick="kosar()">
+        </div>
         <div class="footer">
             <hr>
             <p class="copyrightlight"> © 2021 KISZOMBOR CORPORATION OF HUNGARY <br>
-            TERMS AND CONDITIONS PRIVACY POLICY/KISZOMBOR PRIVACY RIGHTS</p>
+                TERMS AND CONDITIONS PRIVACY POLICY/KISZOMBOR PRIVACY RIGHTS</p>
         </div>
+        
     </div>
     
     
