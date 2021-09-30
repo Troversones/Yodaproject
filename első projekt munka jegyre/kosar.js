@@ -73,14 +73,19 @@ function addItemToCart(title, price, imageSrc){
     }
     var cartRowContents = `
             <div class="cart-item cart-column">
-            <img src="${imageSrc}" alt="cartitem" width="100" height="100">
-            <span class="cart-item-title">${title}</span>
-            </div>
-            <span class="cart-price cart-column">${price}</span>
-            <div class="cart-quantity cart-column">
-            <input class="cart-quantity-input" type="number" value="1">
-            <button class="btn btn-danger" type="button">ELTÁVOLÍT</button>
-            </div>`;
+            
+                    <img src="${imageSrc}" alt="cartitem" width="100" height="100"><br>
+                    <span class="cart-item-title">${title}</span> <br>
+                    </div>
+                    <span class="cart-price cart-column">${price}</span><br>
+                    <div class="cart-quantity cart-column"><br>
+                    <input class="cart-quantity-input" type="number" value="1"><br>
+                    <button class="btn btn-danger" type="button">ELTÁVOLÍT</button>
+                    </div>
+                    <hr>
+
+                
+            `;
             cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow);
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)

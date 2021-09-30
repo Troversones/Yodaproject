@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="01html.css" type="text/css">
     <script src="kosar.js" async></script>
-    <title>I hate n</title>
+    <title>Main page</title>
 </head>
 <body>
         <ul>
@@ -19,7 +19,7 @@
         </ul>
     <div id="container">
         <div class="header">
-                <h1>Videójáték üzlet</h1>
+                <h1>Kyszombor Videójáték üzlet</h1>
                 <hr>
         </div>
         <div class="content">
@@ -42,13 +42,13 @@
                         <td> <img src="Képek/uncharted.png" class="smallpic" alt="Uncharted"> </td>
                         <td id="nev" class="shop-item-title">Uncharted: <br>
                             The Nathan Drake Collection <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">7499 Ft</td>
                     </tr>
                     <tr>
                         <td> <img src="Képek/darksouls3.jpg" class="smallpic" alt="Dark souls"> </td>
                         <td id="nev" class="shop-item-title">Dark Souls III <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">8999 Ft</td>
                     </tr>
                 </table>
@@ -58,19 +58,19 @@
                         <td> <img src="Képek/sfv.jfif" class="smallpic" alt="sfv"> </td>
                         <td id="nev" class="shop-item-title">Street Fighter V:  <br>
                             Arcade edition <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">7999 Ft</td>
                     </tr>
                     <tr>
                         <td> <img src="Képek/jumanji.jpg" class="smallpic" alt="jumanji"> </td>
                         <td id="nev" class="shop-item-title">Jumanji <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">2999 Ft</td>
                     </tr>
                     <tr>
                         <td> <img src="Képek/Horizon.jfif" class="smallpic" alt="Horizon"> </td>
                         <td id="nev" class="shop-item-title">Horizon <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">9999 Ft</td>
                     </tr>
                 </table>
@@ -82,19 +82,19 @@
                         <td><img src="Képek/callofduty.png" class="smallpic" alt="callofduty"></td>
                         <td id="nev" class="shop-item-title">Call of Duty <br>
                         Black Ops: Cold War <br>
-                        <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                        <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">4499 Ft</td>
                     </tr>
                     <tr>
                         <td><img src="Képek/cobrakai.jpg" class="smallpic" alt="cobrakai"></td>
                         <td id="nev" class="shop-item-title">Cobra Kai <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">4999 Ft</td>
                     </tr>
                     <tr>
                         <td><img src="Képek/gta4.jpg" class="smallpic" alt="gta4"></td>
                         <td id="nev" class="shop-item-title">Grand Theft Auto 4 <br>
-                            <input type="button" value="Kosárba" class="ksrbtn" onclick="kosar()"></td>
+                            <input type="button" value="Kosárba" class="ksrbtn"></td>
                         <td id="ar" class="shop-item-price">6499 Ft</td>
                     </tr>
                     <tr>
@@ -108,13 +108,20 @@
         </div>
         <h2 style="text-align: center;">Kosár: </h2>
             <div class="cart-row">
-                <span class="cart-item cart-header cart-column">Termék</span>
-                <span class="cart-price cart-header cart-column">Ár</span>
-                <span class="cart-quantity cart-header cart-column">Mennyiség</span>
+            <table id="cartlisttb">
+                    <tr id="cartlisttr">
+                        <td id="cartlisttd"><span class="cart-item cart-header cart-column">Termék</span></td>
+                        <td id="cartlisttd"><span class="cart-price cart-header cart-column">Ár</span></td>
+                        <td id="cartlisttd"><span class="cart-quantity cart-header cart-column">Mennyiség</span></td>
+                    </tr>
             </div>
-            <div class="cart-items">
-
-            </div>
+                <tr>
+                    <td id="kekw" colspan = 3>
+                    <div class="cart-items">
+                    </div>
+                    </td>
+                </tr>
+            </table>
         <div class="cart-total">
             <strong class="cart-total-title">Összeg: </strong>
             <span class="cart-total-price">0Ft</span>
