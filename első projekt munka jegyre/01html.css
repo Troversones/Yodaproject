@@ -57,7 +57,7 @@ table, th, td {
     background-color: black;
   }
 .active {
-    background-color: #04AA6D;
+    background-color: #0066CC;
   }
   ul {
       width: 860px;
@@ -123,4 +123,63 @@ h1{
   color: lightblue;
   text-align: left;
   padding-left: 15px;
+}
+#cartlisttb ,#cartlisttr, #cartlisttd{
+  text-align: center;
+  background-color: #04AA6D;
+  width: 20px;
+  border: 1px solid white;
+    border-collapse: collapse;
+}
+#kekw{
+  background-color: #333300;
+  width: 200px;
+}
+
+
+.newspicture{
+  float: left;
+  width: 200px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.newstext{
+  text-align: center;
+  float: right;
+  width: 200px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.firstarticle{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aboutus1 ,.aboutus2, .aboutus3{
+  margin-left: 10px;
+  padding-right: 15px;
+  margin-right: 15px;
+  height: 250px;
+}
+.aboutus1text, .aboutus2text, .aboutus3text{
+  text-align: right;
+  word-wrap: break-word;
+  width: 400px;
+  float: right;
+}
+.aboutus1pic, .aboutus2pic, .aboutus3pic{
+  float: left;
+  width: 400px;
+}
+.smallpicxd{
+  width: 350px;
+  height: 200px;
+}
+.aboutustitle{
+  text-align: center;
+  text-decoration: underline;
+  border-spacing: 5px;
+  word-spacing: 5px;
 }
