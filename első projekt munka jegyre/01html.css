@@ -151,6 +151,20 @@ h1{
   padding-right: 3px;
   padding-left: 3px;
 }
+.newspicturetwo{
+  float: left;
+  width: 200px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.newstexttwo{
+  text-align: right;
+  float: right;
+  width: 200px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
 .firstarticle{
   float: left;
   border-style: solid;
@@ -160,6 +174,19 @@ h1{
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.secondarticle{
+  float: right;
+  border-style: solid;
+  border-color: #111;
+  background-color: #333300;
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.newwolrd{
+  width: 400px;
 }
 .aboutus1 ,.aboutus2, .aboutus3{
   margin-left: 10px;
