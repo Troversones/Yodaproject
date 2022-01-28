@@ -1,0 +1,58 @@
+td.kep{
+    width: 120px;
+}
+td.termek{
+    width: 200px;
+}
+td.mennyiseg{
+    width: 100px;
+}
+td.netto{
+    width: 100px;
+}
+td.afa{
+    width: 50px;
+}
+td.brutto{
+    width: 100px;
+}
+.cimsor{
+    font-size: 18pt;
+}
+.balraxd{
+    text-align: left;
+}
+thead{
+    width: 800px;
+    background-color:  rgb(59, 57, 57);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+.tbimage{
+    height: 75px;
+}
+.alsoreszxd{
+    background-color: rgb(59, 57, 57);
+    color: white;
+    height: 30px;
+}
+.hehe{
+    text-align: right;
+}
+.befoglalo{
+    background-color: darkgray;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    width: 800px;
+    margin-top: 30px;
+}
